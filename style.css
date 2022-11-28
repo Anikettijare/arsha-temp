@@ -303,7 +303,6 @@ summary:hover{
               url("images/cta-bg.jpg") fixed center center;
     background-size: cover;
     padding: 130px 133px;
-    z-index: -1;
 }
 .cta{
     display: flex;
