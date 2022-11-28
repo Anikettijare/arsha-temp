@@ -93,9 +93,6 @@
     font-weight: 600; 
 }
 /* css applied to box3 */
-.box3{
-    z-index: -1;
-}
 .clients{
     background-color:#f3f5fa;
     padding: 20px 40px;
