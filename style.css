@@ -900,5 +900,7 @@ input[type=submit]{
     .footer {
         display: block;
     }
-    
+    .btn2 {
+        padding: 8px 1px;
+    }
 }
