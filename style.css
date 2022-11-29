@@ -820,8 +820,10 @@ input[type=submit]{
         padding: 13px 30px;
     }
     .card {
-        width: 300px;
         margin: 14px 10px;
+    }
+    .cards{
+        margin: 12px;
     }
     .ser-head p {
         padding: 0px 5px;
@@ -836,6 +838,9 @@ input[type=submit]{
     }
     .port-head p {
         padding: 0px 5px;
+    }
+    .p-card{
+        margin-left: 5px;
     }
     .folio {
         margin: 2px;
@@ -862,8 +867,14 @@ input[type=submit]{
     .team-head p {
         padding: 0px 5px;
     }
+    .team-info {
+        margin-left: 0px;
+    }
     .price-head p {
         padding: 0px 5px;
+    }
+    .faq-head h1{
+        padding: 13px;
     }
     .faq-head p {
         padding: 0px 5px;
@@ -873,6 +884,9 @@ input[type=submit]{
     }
     .con-head p {
         padding: 0px 5px;
+    }
+    .text {
+        padding-bottom: 20px;
     }
     .newsletter p {
         padding: 0px;
@@ -894,12 +908,15 @@ input[type=submit]{
         margin: 20px 56px;
     }
     .loco img{
-        width: 245px;
+        width: 100%;
     }
     .footer {
         display: block;
     }
     .btn2 {
         padding: 8px 1px;
+    }
+    .forms input {
+        padding: 10px 17px;
     }
 }
