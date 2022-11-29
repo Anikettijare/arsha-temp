@@ -75,6 +75,24 @@
 .img-box img{
     padding-top: 40px;
 }
+.img-box img{
+    animation-name: updown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    transition: all .3s;
+}
+@keyframes updown{
+   0%{
+    transform: translateY(0px) ;
+   }
+   50%{
+    transform: translateY(-20px) ;
+   }
+   100%{
+    transform: translateY(0px)  ;
+   }
+}
 .btn1{
     background-color: #47b2e4;
     border: 2px solid #47b2e4;
