@@ -803,7 +803,12 @@ input[type=submit]{
     }
 }
 @media (max-width:500px) {
-    
+    .box2 {
+        padding: 25px;
+    }
+    .btn2{
+        padding: 8px 5px;
+    }
     .skills {
         padding: 20px 20px;
     }
@@ -832,9 +837,9 @@ input[type=submit]{
         padding: 20px 19px;
     }
     .cta-btn {
-        margin: 26px 90px;
-        padding: 1px 17px;
-        width: 50%;
+        margin: 17px 58px;
+        padding: 0px 9px;
+        width: 55%;
     }
     .port-head p {
         padding: 0px 5px;
