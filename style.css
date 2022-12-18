@@ -336,7 +336,8 @@ summary:hover{
     width: 25%;
     margin: 26px 70px;
     border: 2px solid white;
-    padding: 8px 30px;
+    text-align: center;
+    padding: 8px 16px;
     border-radius: 50px;
 }
 .cta-btn a{
