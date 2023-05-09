@@ -14,7 +14,7 @@
         <div class="box1">
             <div class="navbar">
                 <h1>Arsha</h1>
-                <ul>
+                <ul id="list" onclick="closeMenu()">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
@@ -22,8 +22,11 @@
                     <li><a href="#">Team</a></li>
                     <li><a href="#">Contact</a></li>
                     <li><a class="circle" href="#">Get Started</a></li>
+                    <li>
+                        <img src="images/close.jpeg" alt="close btn">
+                    </li>
                 </ul>
-                <div class="menu-bar">
+                <div class="menu-bar" onclick="openMenu()">
                     <a href="#"><i class="fa fa-bars"></i></a>
                 </div>
             </div>
@@ -589,6 +592,29 @@
                 </div>
             </div>
         </div>
+        <div class="scroll_btn">
+            <a href="#" class="scroll-up"><i class="fa fa-arrow-up"></i></a>
+        </div>
     </div>
+
+    <Script>
+        const scroll = document.querySelector('.scroll-up');
+        window.addEventListener('scroll', () => {
+            if(window.pageYOffset > 50){
+                scroll.classList.add('active');
+            }else{
+                scroll.classList.remove('active');
+            }
+        })
+
+
+        let menu = document.getElementById('list');
+        function openMenu(){
+            menu.style.right = '0px';
+        }
+        function closeMenu(){
+            menu.style.right = '-500px';
+        }
+    </Script>
 </body>
 </html>
