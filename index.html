@@ -27,7 +27,7 @@
                     </li>
                 </ul>
                 <div class="menu-bar" onclick="openMenu()">
-                    <a href="#"><i class="fa fa-bars"></i></a>
+                    <i class="fa fa-bars"></i>
                 </div>
             </div>
         </div>
@@ -597,23 +597,23 @@
         </div>
     </div>
 
-    <Script>
-        const scroll = document.querySelector('.scroll-up');
+    <script>
+        const scrol = document.querySelector('.scroll-up');
         window.addEventListener('scroll', () => {
             if(window.pageYOffset > 50){
-                scroll.classList.add('active');
+                scrol.classList.add('active');
             }else{
-                scroll.classList.remove('active');
+                scrol.classList.remove('active');
             }
-        });
+        })
 
-        let menu = document.getElementById('list');
+        const menu = document.getElementById('list');
         function openMenu(){
             menu.style.right = '0px';
         }
         function closeMenu(){
             menu.style.right = '-500px';
         }
-    </Script>
+    </script>
 </body>
 </html>

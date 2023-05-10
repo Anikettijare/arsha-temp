@@ -7,5 +7,6 @@ In this website i have used arsha template for my project.
 # Technology used
 - HTML 
 - CSS
+- Javascript
 # Time Required
 Its take my near about 10 hours.
