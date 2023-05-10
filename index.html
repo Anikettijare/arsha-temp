@@ -15,12 +15,12 @@
             <div class="navbar">
                 <h1>Arsha</h1>
                 <ul id="list" onclick="closeMenu()">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <li><a class="circle" href="#">Get Started</a></li>
                     <li>
                         <img src="images/close.jpeg" alt="close btn">
@@ -32,7 +32,7 @@
             </div>
         </div>
         <!-- Header Section and info -->
-        <div class="box2">
+        <div class="box2" id="home">
             <div class="content">
                 <h1>Better Solutions For Your Business</h1>
                 <h2>We are team of talented designers making websites with Bootstrap</h2>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <!-- About us -->
-        <div class="box4">
+        <div class="box4" id="about">
             <div class="about-head">
                 <h1>About us</h1>
             </div>    
@@ -184,7 +184,7 @@
         </div>
         <!-- Services -->
         <div class="box7">
-            <div class="services">
+            <div class="services" id="services">
                 <div class="ser-head">
                     <h1>Services</h1>
                     <p>
@@ -233,7 +233,7 @@
             </div>
         </div>
         <!-- Portfolio -->
-        <div class="box9">
+        <div class="box9" id="portfolio">
             <div class="portfolio">
                 <div class="port-head">
                     <h1>Portfolio</h1>
@@ -265,7 +265,7 @@
             </div>
         </div>
         <!-- Team info -->
-        <div class="box10">
+        <div class="box10" id="team">
             <div class="teams">
                 <div class="team-head">
                     <h1>Team</h1>
@@ -466,7 +466,7 @@
             </div>
         </div>
         <!-- Contact Details -->
-        <div class="box13">
+        <div class="box13" id="contact">
             <div class="contact-info">
                 <div class="con-head">
                     <h1>Contact</h1>
@@ -605,8 +605,7 @@
             }else{
                 scroll.classList.remove('active');
             }
-        })
-
+        });
 
         let menu = document.getElementById('list');
         function openMenu(){
